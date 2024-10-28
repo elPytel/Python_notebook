@@ -37,3 +37,6 @@ White='\033[0;37m'        # White
 
 print("Calculating ..." + Green + "Done" + NC)
 ```
+
+Cvičení:
+- [Tiskneme do konzole](../notebooks/tiskneme%20do%20konzole.ipynb)

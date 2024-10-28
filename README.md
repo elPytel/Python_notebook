@@ -13,6 +13,15 @@ Notebooky pro ovládnutí jazyka Python
 
 ## Obsah:
 - [Proč Python?](./DOC/Proč%20Python.md)
-- [Jazyk a syntaxe](./DOC/Jazyk%20a%20syntaxe.md)
 - [IDE (integrované vývojové prostředí)](./DOC/IDE.md)
+- [Jazyk a syntaxe](./DOC/Jazyk%20a%20syntaxe.md)
+- [Instalování balíčků (knihoven)](./DOC/Instalování%20balíčků.md)
 - [Programujeme v Pythonu](./DOC/Programujeme%20v%20Pythonu.md)
+
+## Jak začít?
+Pro efektivní práci s tímto repozitářem je potřeba mít nainstalované:
+- Python, 
+  - rošíření na práci s jazykem Python.
+- vývojové prostědí Visual Studio Code.
+
+Podrobnější návod najdete v [zde](./DOC/IDE.md).
