@@ -17,6 +17,7 @@ Notebooky pro ovládnutí jazyka Python
 - [Jazyk a syntaxe](./DOC/Jazyk%20a%20syntaxe.md)
 - [Instalování balíčků (knihoven)](./DOC/Instalování%20balíčků.md)
 - [Programujeme v Pythonu](./DOC/Programujeme%20v%20Pythonu.md)
+  - [Návrh kódu](./DOC/návrh%20kódu.md)
 
 ## Jak začít?
 Pro efektivní práci s tímto repozitářem je potřeba mít nainstalované:

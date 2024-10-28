@@ -273,3 +273,6 @@ test_calculator.py ..                         [100%]
 ================ 2 passed in 0.02s =================
 ```
 Jak můžeme vidět, tak oba testovací případy prošly.
+
+### Dále
+- [Návrh kódu](./návrh%20kódu.md)
