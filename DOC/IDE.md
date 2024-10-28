@@ -9,7 +9,7 @@ Plně dostačující vývojové prostředí v prohlížeči. Umožnuje vytváře
 
 Stránka: [replit.com](https://replit.com/)
 
-### Offline
+### Off-line
 #### Interpreter jazyka
 Slouží pro spuštění programu. Kód spouští - "interpretuje" řádek po řádku. Lze jej stáhnout z oficiálních stránek, 
 nebo například přímo v M$ store:
@@ -23,7 +23,7 @@ Mezi velmi populární varianty patří například:
 - [pycharm](https://www.jetbrains.com/pycharm)
 
 ## VS Code 
-Je prostředí od Micro$oftu. Je velmi jednoduché a veškeré další funkcionality se do něj získavají pomocí rozšíření. 
+Je prostředí od Micro$oftu. Je velmi jednoduché a veškeré další funkcionality se do něj získávají pomocí rozšíření. 
  
 ### Rozšíření
 Ty se instalují přímo ve VS Code v záložce vlevo na svislé liště (ikona tetrisu).
@@ -31,9 +31,9 @@ Doporučená rozšíření:
 - Python (Micro$oft)
 
 ## Instalování balíčků (knihoven)
-Instalce knihoven se provádí pomocí nástroje [pip](https://pip.pypa.io/en/stable/).
+Instalace knihoven se provádí pomocí nástroje [pip](https://pip.pypa.io/en/stable/).
 
-### Nečo více o knihovnách
+### Něco více o knihovnách
 
 #### `Time`
 Jednou ze základních knihoven na kterou by mohl člověk narazit je knihovna Time, tedy čas.

@@ -2,24 +2,24 @@
 ## Programujeme v Pythonu
 
 ### Proměnné 
-> Pojmenování věcí je to vůbec nejtěží na programování.
+> Pojmenování věcí je to vůbec nejtěžší na programování.
 
-Dobrý nápad je většinou pojemnovávat věci tak aby z jejich názvu bylo jasné co mají obsahovat.
+Dobrý nápad je většinou pojmenovávat věci tak aby z jejich názvu bylo jasné co mají obsahovat.
 Co když bude název několika slovný?
 To vůbec není problém, protože žijeme v době IDE plných:
-- našeptávačů a automatického doplnování,
+- našeptávačů a automatického doplňování,
 - a hromadné přejmenování je také opravdu mocný nástroj.
 
 
 ![now only god knows how this code works](https://pbs.twimg.com/media/CpIUd8jXYAAtkvE.jpg)
 
-Ideální stav pojemnovávání je takový, že dojdeme do stavu kdy není potřeba psát komentář k tomu aby jsme věděli co program vykonává (a to i po půl roce co jsme ho neviděli).
+Ideální stav pojmenovávání je takový, že dojdeme do stavu kdy není potřeba psát komentář k tomu aby jsme věděli co program vykonává (a to i po půl roce co jsme ho neviděli).
 
 ![spagety code](https://miro.medium.com/v2/1*NT1um6PYhJU4q9E26cQUew.png)
 
 > Čistý kód se pozná tak, že jej můžete číst jako prózu.
 
-Kód s dobrými názvy proměných, tříd, funkcí... se stává samo popisným (obzvláště v Pythonu), stačí ho tedy přečíst jako větu, která nám dá sama o sobě dostatečně dobrou představu o tom co program vykonává.
+Kód s dobrými názvy proměnných, tříd, funkcí... se stává samo popisným (obzvláště v Pythonu), stačí ho tedy přečíst jako větu, která nám dá sama o sobě dostatečně dobrou představu o tom co program vykonává.
 
 Najaká užitečná videa:
 - [Naming Things in Code](https://www.youtube.com/watch?v=-J3wNP6u5YU&t=116s)
@@ -41,7 +41,7 @@ Programování jde z hlediska přístupu rodělit na:
 
 Zástupcem funkcionálního programování může být například [Lisp](https://cs.wikipedia.org/wiki/Lisp) a ojektového [Java](https://cs.wikipedia.org/wiki/Java_(programovací_jazyk)).
 
-Když se člověk dostatečně podrobně seznámí s proměnými, poly a dalšími datovými typy tak jsou na řadě "struktury". Ty nám umožnují ukládat spolu data, která k sobě patří. Může si to představit jako záznam nějakého typu. Jako příklad si uvedeme kartotéku. Můžeme si o lidech ukládat například: **jméno**, **věk**, **pohlaví**, **místo_narození**, **zaměstnání**.
+Když se člověk dostatečně podrobně seznámí s proměnnými, poli a dalšími datovými typy tak jsou na řadě "struktury". Ty nám umožnují ukládat spolu data, která k sobě patří. Může si to představit jako záznam nějakého typu. Jako příklad si uvedeme kartotéku. Můžeme si o lidech ukládat například: **jméno**, **věk**, **pohlaví**, **místo_narození**, **zaměstnání**.
 
 Zde je příklad jednoho záznamu v podobě slovníku:
 ``` Python
@@ -54,7 +54,7 @@ osoba = {
 }
 ```
 
-Kartotéka která uchovává pouze jeden záznam není moc užitečná. Nejspíše by jsme chtěli ukládat záznami rovnou o několika různých lidech. Co s tím? Může si vytvořit pole (v Pythonu list) pro každá atribut našeho záznamu. Jak budeme lidi přidávat do kartotéky, tak se pustupně naše seznamy prodlužují.
+Kartotéka která uchovává pouze jeden záznam není moc užitečná. Nejspíše by jsme chtěli ukládat záznamy rovnou o několika různých lidech. Co s tím? Může si vytvořit pole (v Pythonu list) pro každá atribut našeho záznamu. Jak budeme lidi přidávat do kartotéky, tak se postupně naše seznamy prodlužují.
 
 ``` Python
 # Seznamy s informacemi o jednotlivých osobách
