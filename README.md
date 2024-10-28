@@ -11,8 +11,8 @@ Notebooky pro ovládnutí jazyka Python
 - [Učíme se Python](https://python.cz/zacatecnici/)
 - [Ponořme se do Pythonu 3](http://diveintopython3.py.cz/index.html)
 
-## Obsah
-- [Jazyk a syntaxe](./Jazyk%20a%20syntaxe.md)
-- [Proč Python?](./Proč%20Python.md)
-- [IDE (integrované vývojové prostředí)](./IDE.md)
-- [Programujeme v Pythonu](./Programujeme%20v%20Pythonu.md)
+## Obsah:
+- [Proč Python?](./DOC/Proč%20Python.md)
+- [Jazyk a syntaxe](./DOC/Jazyk%20a%20syntaxe.md)
+- [IDE (integrované vývojové prostředí)](./DOC/IDE.md)
+- [Programujeme v Pythonu](./DOC/Programujeme%20v%20Pythonu.md)
