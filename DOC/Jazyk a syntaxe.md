@@ -51,8 +51,9 @@ print("Calculating ... ")
 print(Green + "Done" + NC)
 ```
 
-> [!note] Určitě se ptáte:
-> Co je to za šílené změti písmen a číse? Jde o takzvané: "**ANSI** escape kódy". Je to historický přežitek z doby prvních počítačových terminálů a slouží pro základní formátování textu a změnu barvy. Jsou šílené, protože v tehdejší době byli počítače pomalé a každý přenesený Bajt po seriové lince se počítal. Jsou však užitené, protože umožňují jednoduché obarvení textu a fungují krakticky na všech počítačích.
+> [!Note]
+> Určitě se ptáte: Co je to za šílené změti písmen a číse?
+> Jde o takzvané: "**ANSI** escape kódy". Je to historický přežitek z doby prvních počítačových terminálů a slouží pro základní formátování textu a změnu barvy. Jsou šílené, protože v tehdejší době byli počítače pomalé a každý přenesený Bajt po seriové lince se počítal. Jsou však užitené, protože umožňují jednoduché obarvení textu a fungují prakticky na všech počítačích.
 > Více nám prozradí [wiki](https://cs.wikipedia.org/wiki/ANSI_escape_kód). 
 
 Cvičení:
