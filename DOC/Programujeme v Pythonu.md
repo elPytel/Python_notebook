@@ -1,7 +1,7 @@
 
-## Programujeme v Pythonu
+# Programujeme v Pythonu
 
-### Proměnné 
+## Proměnné 
 > Pojmenování věcí je to vůbec nejtěžší na programování.
 
 Dobrý nápad je většinou pojmenovávat věci tak aby z jejich názvu bylo jasné co mají obsahovat.
@@ -25,14 +25,27 @@ Najaká užitečná videa:
 - [Naming Things in Code](https://www.youtube.com/watch?v=-J3wNP6u5YU&t=116s)
 - [Don't Write Comments](https://www.youtube.com/watch?v=Bf7vDBBOBUA)
 
-### Funkce
+## Funkce
+
+Jak se vytváří funkce v Pythonu?
+``` Python
+def absolutni_hodnota(cislo):
+    """
+    Funkce vrati absolutni hodnotu zadaneho cisla.
+    """
+    return cislo if cislo >= 0 else -cislo
+```
+
 Kdy má člověk vytvořit funkci?
-- Spagety code - kód je nečitelný (příliš mnoho vnoření)
+- **Spagety code** - kód je nečitelný (příliš mnoho vnoření, složité podmínky)
 - Opakující se kus kódu (programuji ctrl+c, ctrl+v)
 
 Krátké video na YouTube: [Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4&t=12s)
 
-### OOP
+### Vnoření kódu
+Uvádí se že kód, který má více jak tři vnoření je kandidátem na refaktorizaci. To znamená že by měl být rozdělen na více funkcí, které budou mít jasně daný úkol.
+
+## OOP - objektově orientované programování
 K čemu je objektové programování?
 
 Programování jde z hlediska přístupu rodělit na:
@@ -194,7 +207,7 @@ Dále se v kódu vytváří list do kterého se uložené různé instance ruzn�
 
 V jednom cyklu for lze vypočítat obvod a plochu všech těles. Všimněte si že to jdeto právě díky tomu, že dědí všechny objekty stejně pojmenované funkce od rodiče `Shape`!
 
-### TDD - test driven development
+## TDD - test driven development
 Když se človek dostane do stavu, že má dobře pojmenované věci v programu, hluboká vnoření a opakující struktury rozpletené do přehledných funkcí, máme odelenou logiku programu od práce s konzolí a dalšími vstupy a výstupu, tak to ještě neznamená že je vše růžové a program funguje. 
 
 Programátoři přišli s konceptem testování kódu. Je to z toho důvodu že na rozdíl od matematické logiky (a jazyku Prolog, který je ní postavený) nelze u programu dokázat zda funguje a je správný. Můžete si říci: "Vždyť jsem to vyzkoušel! Spustil jsem progam a on fungoval!", ale to nám zdaleka nestačí. Pro to, aby šlo o nějaké aplikaci říci, že je funkční, tak by jsme museli otestovat všechny možné varianty jednotlivých vstupů a jejich kombinace. To pro běžnou aplikaci je nepředstavitelné množství lidské práce. Proto si pomůžeme testováním. 
@@ -221,7 +234,7 @@ Psát ke každé funkci ještě kód který ji otestuje? To musí být strašně
 
 Ano, a je to přesně 2x tolik práce při psaní kódu, ale asi 1/5x práce při zkoušení aplikace a 1/10x při hledání chyb. A to už stojí za to si s tím tu práci dát.
 
-#### Píšeme testy
+### Píšeme testy
 Tak jdeme na to!
 Program `pytest` bude standardně hledat testy v adresáři, kde ho spustíme. Testy k našemu programu snadno pozná podle toho, že začínají slovem *test* a jsou obecně ve tvaru: **text_xxx.py**.
 
@@ -274,5 +287,5 @@ test_calculator.py ..                         [100%]
 ```
 Jak můžeme vidět, tak oba testovací případy prošly.
 
-### Dále
+## Dále
 - [Návrh kódu](./návrh%20kódu.md)

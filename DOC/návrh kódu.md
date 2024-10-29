@@ -10,10 +10,10 @@ Tento přístup je vhodný pro menší projekty, nebo když nevíme co všechno 
 Nevíhodou může být že je těžší dělit práci mezi více programátorů (nashodli se na tom jak spolu budou části programu komunikovat).
 
 ```Python
-def print_player_score(player_name, score, time_in_game, is_winer):
+def print_player_score(player_name, score, time_in_game, is_winner):
     print(f"Player {player_name} has score {score} in time {time_in_game}.")
-    if is_winer:
-        print(f"Player {player_name} is winer.")
+    if is_winner:
+        print(f"Player {player_name} is winner.")
     else:
         print(f"Player {player_name} is looser.")
 
@@ -21,9 +21,9 @@ if __name__ == "__main__":
     player_name = "John"
     score = 100
     time_in_game = 1000
-    is_winer = True
+    is_winner = True
 
-    print_player_score(player_name, score, time_in_game, is_winer)
+    print_player_score(player_name, score, time_in_game, is_winner)
 ```
 
 ### K čemu je toto dobré?

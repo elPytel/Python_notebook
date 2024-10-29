@@ -1,5 +1,6 @@
+# Jazyk a syntaxe
+Komentář se značí: `#` - hash-tag. Veškerý text na řádku uvedený za ním se nevykoná, ale je pouze pro programátora.
 
-## Jazyk a syntaxe
 ``` Python
 # jednoradkovy komentar
 
@@ -9,21 +10,21 @@ komentar
 """
 ```
 
-### Můj první program
+## Můj první program
 Je ustáleným zvykem pojmenovávat hlavní soubor programu nebo spouštěnou funkci `main`. Proto začnětě vytvořením souboru `main.py`. Přípona `.py` odkazuje na Python a uvádí, že jde o soubor se zdrojovým kódem skryptovacího (programovacího) jazyka Python.
 ``` Python
 # muj prvni program
 def main():
-    print("muj prvni program")
+    print("Muj prvni program.")
 main()
 ```
 
-### Tisk na konzoli
+## Tisk na konzoli
 Přidání barevného výstupu:
 ``` Python
 # Reset
 Color_Off='\033[0m'       # Text Reset
-NC='\033[0m'
+NC='\033[0m'              # No Color
 
 # Regular Colors
 Black='\033[0;30m'        # Black
@@ -37,6 +38,10 @@ White='\033[0;37m'        # White
 
 print("Calculating ..." + Green + "Done" + NC)
 ```
+
+> [!note] Určitě se ptáte:
+> Co je to za šílené změti písmen a číse? Jde o takzvané: "**ANSI** escape kódy". Je to historický přežitek z doby prvních počítačových terminálů a slouží pro základní formátování textu a změnu barvy. Jsou šílené, protože v tehdejší době byli počítače pomalé a každý přenesený Bajt po seriové lince se počítal. Jsou však užitené, protože umožňují jednoduché obarvení textu a fungují krakticky na všech počítačích.
+> Více nám prozradí [wiki](https://cs.wikipedia.org/wiki/ANSI_escape_kód). 
 
 Cvičení:
 - [Tiskneme do konzole](../notebooks/tiskneme%20do%20konzole.ipynb)
