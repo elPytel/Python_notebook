@@ -1,4 +1,3 @@
-
 # Programujeme v Pythonu
 
 ## Proměnné 

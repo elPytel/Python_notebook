@@ -1,4 +1,8 @@
 # Jazyk a syntaxe
+
+## Ozubená kolečka někdě uvnitř
+
+## Můj první komentář
 Komentář se značí: `#` - hash-tag. Veškerý text na řádku uvedený za ním se nevykoná, ale je pouze pro programátora.
 
 ``` Python
@@ -12,6 +16,7 @@ komentar
 
 ## Můj první program
 Je ustáleným zvykem pojmenovávat hlavní soubor programu nebo spouštěnou funkci `main`. Proto začnětě vytvořením souboru `main.py`. Přípona `.py` odkazuje na Python a uvádí, že jde o soubor se zdrojovým kódem skryptovacího (programovacího) jazyka Python.
+
 ``` Python
 # muj prvni program
 def main():
@@ -20,6 +25,12 @@ main()
 ```
 
 ## Tisk na konzoli
+Jednoduché prosté a elegantní:
+``` Python	
+print("Hello World!")
+```
+
+### Barevný výstup
 Přidání barevného výstupu:
 ``` Python
 # Reset
@@ -36,7 +47,8 @@ Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'         # Cyan
 White='\033[0;37m'        # White
 
-print("Calculating ..." + Green + "Done" + NC)
+print("Calculating ... ")
+print(Green + "Done" + NC)
 ```
 
 > [!note] Určitě se ptáte:
